@@ -91,16 +91,16 @@ var mainWeather = {
 	var a=data.main.temp;
         return "<div class='pressure'> <p>Temperature at City1: " + (data.main.temp - 273.15).toFixed(2) + " C</p></div>";
                 
-    }
+    },
        createWeatherWidg2: function (data) {
 	var b=data.main.temp;
         return "<div class='pressure'> <p>Temperature at City2: " + (data.main.temp - 273.15).toFixed(2) + " C</p></div>";
                 
-    }
+    },
        createWeatherWidg3: function (data) {
 	var c=data.main.temp;
         return "<div class='pressure'> <p>Temperature at City3: " + (data.main.temp - 273.15).toFixed(2) + " C</p></div>";
-    }
+    },
        createWeatherWidg4: function (data) {
 	var d=data.main.temp;
         return "<div class='pressure'> <p>Temperature at City4: " + (data.main.temp - 273.15).toFixed(2) + " C</p></div>"+
